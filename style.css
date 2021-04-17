@@ -1,0 +1,80 @@
+body{
+    background-color:#343434;
+   
+    /* display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    overflow: hidden; */
+}
+
+.container{
+    width: 200px;
+    height: 100px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* top: 50%;
+    left: 50%;
+    margin: -35px 0 0 -86px; */
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,100px); */
+    
+}
+/* .heading{
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    padding-top: 20px;
+}
+#first{
+    align-content: center;
+}
+
+#myInput{
+    margin-left: 35px;
+    margin-top: 25px;
+    height: 40px;
+    width:300px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#search{
+    margin-left: 145px;
+    margin-top: 10px;
+    height: 90px;
+    width:90px;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: rgb(15, 194, 179);
+    cursor: pointer;
+}
+
+#location{
+    color: rgb(255, 255, 255);
+    padding-left: 145px;
+    padding-top: 20px;
+}
+#temp{
+    color: rgb(255, 255, 255);
+    padding-left: 145px;
+    padding-top: 20px;
+}
+#description{
+    color: rgb(255, 255, 255);
+    padding-left: 145px;
+    padding-top: 20px;
+}
+#image{
+    color: rgb(255, 255, 255);
+    padding-left: 165px;
+    padding-top: 20px;
+}
+#error{
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    padding-top: 20px;
+} */
