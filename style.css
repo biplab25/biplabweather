@@ -1,47 +1,99 @@
 body{
     background-color:#343434;
-   
-    /* display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    overflow: hidden; */
 }
 
-.container{
+.first{
+    width: 200px;
+    height: 90px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.second{
+    width: 320px;
+    height: 90px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.third{
     width: 200px;
     height: 100px;
     background-color:#343434;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* top: 50%;
+}
+.fourth{
+    width: 200px;
+    height: 100px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 53%;
     left: 50%;
-    margin: -35px 0 0 -86px; */
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6,100px); */
-    
+    transform: translate(-50%, -50%);
 }
-/* .heading{
+.five{
+    width: 200px;
+    height: 100px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.six{
+    width: 200px;
+    height: 100px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.seven{
+    width: 200px;
+    height: 100px;
+    background-color:#343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    border-radius: 50px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ #heading{
     color: rgb(255, 255, 255);
-    margin-left: 25px;
-    padding-top: 20px;
-}
-#first{
-    align-content: center;
 }
 
+
 #myInput{
-    margin-left: 35px;
-    margin-top: 25px;
+    margin-left: 33px;
+    margin-top: 23px;
     height: 40px;
-    width:300px;
+    width:250px;
     border-radius: 25px;
     font-size: 20px;
 }
-
+/*
 #search{
     margin-left: 145px;
     margin-top: 10px;
