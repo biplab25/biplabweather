@@ -9,9 +9,10 @@ body{
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .second{
@@ -21,31 +22,33 @@ body{
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
-    top: 26%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .third{
     width: 200px;
     height: 100px;
-    background-color:#343434;
+    background-color:#2fb315;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .fourth{
-    width: 200px;
+    width: 320px;
     height: 100px;
-    background-color:#343434;
+    background-color:#084752;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .five{
     width: 200px;
@@ -57,31 +60,35 @@ body{
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .six{
     width: 200px;
     height: 100px;
-    background-color:#343434;
+    background-color:#869215;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
-    top: 79%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .seven{
     width: 200px;
     height: 100px;
-    background-color:#343434;
+    background-color:#862546;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     border-radius: 50px;
     position: absolute;
-    top: 92%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
  #heading{
     color: rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 
@@ -93,40 +100,30 @@ body{
     border-radius: 25px;
     font-size: 20px;
 }
-/*
+
 #search{
-    margin-left: 145px;
-    margin-top: 10px;
-    height: 90px;
-    width:90px;
-    border-radius: 100%;
-    font-size: 20px;
-    background-color: rgb(15, 194, 179);
-    cursor: pointer;
+    color: white;
+    font-size: 40px;
 }
 
 #location{
     color: rgb(255, 255, 255);
-    padding-left: 145px;
-    padding-top: 20px;
+    font-size: 40px;
 }
 #temp{
     color: rgb(255, 255, 255);
-    padding-left: 145px;
-    padding-top: 20px;
+    font-size: 40px;
 }
 #description{
     color: rgb(255, 255, 255);
-    padding-left: 145px;
-    padding-top: 20px;
+    font-size: 40px;  
 }
 #image{
     color: rgb(255, 255, 255);
-    padding-left: 165px;
-    padding-top: 20px;
+    height: 90px;
 }
 #error{
     color: rgb(255, 255, 255);
     padding-left: 80px;
     padding-top: 20px;
-} */
+} 
