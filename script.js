@@ -7,6 +7,33 @@ const h1location=document.querySelector("#location");
 const description=document.querySelector('#description');
 const icon=document.querySelector('#image');
 const error=document.querySelector("#error");
+
+
+/* Calling the function after window Load*/
+
+const gePosition=function(){
+        return new Promise (function(resolve,reject){
+                navigator.geolocation.getCurrentPosition(resolve,reject);
+        });
+};
+
+
+const whereamI= async function()  {
+        try{
+        const position=await gePosition();
+         console.log(position);
+         const {latitude,longitude} =  position.coords;
+         const resGeo=await fetch(`https://geocode.xyz/${latitude},${longitude}?geoit=json`);
+         const dataGeo=await resGeo.json();
+         console.log(dataGeo);
+         console.log(dataGeo.city);
+         getInformation(dataGeo.city);
+        }
+        catch{
+                alert("User Denied Location");
+        }
+          }
+whereamI();  
 // 
 /* Calling the function after search button click*/
 search.addEventListener("click",async function(){
@@ -17,6 +44,7 @@ search.addEventListener("click",async function(){
                 alert("Whoops! No City Was Found");
         }
 });
+
 
 /* Start of getInformation of weather function */
 async function getInformation(arg){
@@ -32,11 +60,3 @@ async function getInformation(arg){
 }
 /* End of getInformation of weather function */
 
-// var person=function(name){
-//     return{
-//         name:name
-//     }
-    
-// }
-// var sakib= person("sakib");
-// console.log(sakib.name);
